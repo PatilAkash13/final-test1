@@ -18,7 +18,7 @@ namespace Company.Function
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            return new OkObjectResult("bhai this is done after CRON!");
+            return new OkObjectResult("bhai tested today -> 20th dec!");
         }
     }
 }
